@@ -1,8 +1,9 @@
 import sys
 
+
 def nums_generator(max_num):
-    for num in range(1, max_num+1):
-        yield  num
+    for num in range(1, max_num + 1):
+        yield num
 
 
 num_gen = nums_generator(15)

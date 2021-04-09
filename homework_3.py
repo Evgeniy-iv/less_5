@@ -20,5 +20,5 @@ num_gen = nums_generator(['Евгений', 'Алексей', 'Ирина', 'С�
 print(type(num_gen))  # проверяем что функция является генератором
 print(next(num_gen), '\n', next(num_gen), '\n', next(num_gen), '\n',
       next(num_gen), '\n', next(num_gen), '\n', next(num_gen), '\n',
-      next(num_gen), '\n', next(num_gen), '\n', next(num_gen), '\n')
+      next(num_gen), '\n', next(num_gen), '\n')
 # print(next(num_gen)) если раскомментировать строку, можно убедиться, что генератор пуст
